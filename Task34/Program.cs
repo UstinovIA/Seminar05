@@ -25,7 +25,7 @@ void PrintArray(int[] arr)
     Console.WriteLine("]");
 }
 
-int CountEvenNumbers(int[] arr)
+int GetCountEvenNumbers(int[] arr)
 {
     int count = 0;
     for (int i = 0; i < arr.Length; i++)
@@ -38,5 +38,5 @@ int CountEvenNumbers(int[] arr)
 int[] array = CreateArrayRndInt(10, 100, 999);
 Console.WriteLine("Созданный массив:");
 PrintArray(array);
-int countEvenNumbers = CountEvenNumbers(array);
+int countEvenNumbers = GetCountEvenNumbers(array);
 Console.WriteLine($"Количество четных чисел в данном массиве: {countEvenNumbers}");
