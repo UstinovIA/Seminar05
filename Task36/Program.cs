@@ -24,7 +24,7 @@ void PrintArray(int[] arr)
     Console.WriteLine("]");
 }
 
-int GetSumOddElements(int[] arr)
+int GetSumOddPosition(int[] arr)
 {
     int sum = 0;
     for (int i = 1; i < arr.Length; i += 2)
@@ -37,5 +37,5 @@ int GetSumOddElements(int[] arr)
 int[] array = CreateArrayRndInt(10, -20, 20);
 Console.WriteLine("Созданный массив:");
 PrintArray(array);
-int sumOddElements = GetSumOddElements(array);
-Console.WriteLine($"Сумма элементов, стоящих на нечетных позициях равна: {sumOddElements}");
+int sumOddPosition = GetSumOddPosition(array);
+Console.WriteLine($"Сумма элементов, стоящих на нечетных позициях равна: {sumOddPosition}");
