@@ -34,7 +34,7 @@ int GetSumOddElements(int[] arr)
     return sum;
 }
 
-int[] array = CreateArrayRndInt(1, -20, 20);
+int[] array = CreateArrayRndInt(10, -20, 20);
 Console.WriteLine("Созданный массив:");
 PrintArray(array);
 int sumOddElements = GetSumOddElements(array);
